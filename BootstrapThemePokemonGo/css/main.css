@@ -1,0 +1,646 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html
+{
+    font-size: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#66bb8a+0,487b8b+100 */
+}
+
+body
+{
+    background: #66bb8a; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #66bb8a 0%, #487b8b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #66bb8a 0%, #487b8b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #66bb8a 0%, #487b8b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*background-color: #FCFBFB;*/
+    color: #686968 !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bb8a', endColorstr='#487b8b', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.container
+{
+    background-color: rgba(252, 251, 251, 1);
+}
+
+/*------------------*/
+/*
+    NAVBAR
+*/
+
+.navbar
+{
+        border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+    color: #36423D;
+    text-transform: none;
+}
+
+.navbar .nav > li > a:hover, .nav > li > a:focus
+{
+    text-transform: none;
+    background: #238796;
+    color: #9ACEB1;
+}
+.navbar-inverse
+{
+    background: #36423D;
+    color: #D7EBE2;
+}
+
+.navbar input
+{
+    min-height: auto;
+}
+
+.navbar .btn
+{
+    padding: 0.5rem 2rem;
+}
+
+.navbar form
+{
+    margin: 0.25rem 2rem;
+}
+
+/*------------------*/
+
+
+/*
+    TYPOGRAPHY
+*/
+
+/*
+    Headings
+*/
+
+h1
+{
+    color: #44696D;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2
+{
+    color: #36423D;
+    font-weight: 100;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+/*
+    Blockquote
+*/
+
+blockquote
+{
+    background-color: #F1F9EA;
+    border: 0;
+    padding: 2rem 3rem;
+}
+
+/*
+    FORMS
+*/
+
+.well legend
+{
+    border-bottom: 0.25rem solid #D7EBE2;
+    color: #D7EBE2;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.well .help-block
+{
+    color: #D7EBE2;
+}
+
+.well .form-control
+{
+    background: transparent;
+    border: 0.2rem solid #D7EBE2;
+    color: #D7EBE2;
+}
+
+.well input[type="checkbox"]:checked + label:before
+{
+    color: #D7EBE2;
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    left: 0.9rem;
+    margin-left: -0.5rem;
+    position: absolute;
+    top: 0.25rem;
+}
+
+.well input[type="radio"]:checked + label:before
+{
+    color: #D7EBE2;
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    left: 0.9rem;
+    margin-left: -0.5rem;
+    position: absolute;
+    top: 0.25rem;
+}
+
+.well .radio label, .well .checkbox label
+{
+    background-color: transparent;
+    border: 0.125rem solid #D7EBE2;
+    border-radius: 1rem;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 2rem;
+    position: relative;
+    width: 2rem;
+}
+
+.well form .btn
+{
+    background: #238796;
+    border: 0.125rem solid #9ACEB1;
+    border-radius: 2000rem;
+    box-shadow: 0 0 0 0.25rem #238796;
+    color: #D7EBE2;
+}
+
+.form-control
+{
+    background-color: #ffffff;
+    border: 0.2rem solid #41BAC1;
+    border-radius: 1.25rem;
+    color: #54B793;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 36px;
+    min-height: 3rem;
+    padding: 1rem;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline
+{
+    padding-top: 0;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]
+{
+    display: none;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline
+{
+    margin-bottom: 1rem;
+}
+
+input[type="checkbox"]:checked + label:before
+{
+    color: #9ACEB1;
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    left: 0.9rem;
+    margin-left: -0.5rem;
+    position: absolute;
+    top: 0.25rem;
+}
+
+input[type="radio"]:checked + label:before
+{
+    color: #9ACEB1;
+    content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    left: 0.9rem;
+    margin-left: -0.5rem;
+    position: absolute;
+    top: 0.25rem;
+}
+
+.radio label, .checkbox label
+{
+    background-color: #238796;
+    border: 0.125rem solid #9ACEB1;
+    border-radius: 1rem;
+    box-shadow: 0 0 0 0.25rem #238796;
+    cursor: pointer;
+    display: inline-block;
+    height: 2rem;
+    position: relative;
+    width: 2rem;
+}
+
+.input-group-addon:first-child
+{
+    background-color: #41BAC1;
+    border: 0;
+    border-bottom-left-radius: 20rem;
+    border-top-left-radius: 20rem;
+    color: #ffffff;
+    font-weight: 500;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group
+{
+    background-color: #fff;
+    border: 0.2rem solid #41BAC1;
+    border-left: none;
+    height: 3rem;
+    line-height: 1;
+}
+
+.input-group-btn:last-child > .btn:hover, .input-group-btn:last-child > .btn-group
+{
+    background-color: #41bac1;
+    color: #ffffff;
+}
+
+.input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child)
+{
+    border-right: none;
+}
+
+select.form-control
+{
+    min-height: 4rem;
+    padding: 1rem 1rem;
+}
+
+/*-------------*/
+
+/*
+    NAVS 
+*/
+
+.nav-tabs
+{
+    border: 0;
+    border-bottom: 0.125rem solid #238796;
+}
+
+.nav-tabs > li
+{
+    margin-bottom: -0.125rem;
+}
+
+.nav-tabs > li > a
+{
+    border: 0;
+    border-radius: 2rem 2rem 0 0;
+    color: #36423D;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.nav > li > a:hover, .nav > li > a:focus
+{
+    background: #a4ce93; /* Old browsers */
+    background: -moz-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a4ce93 0%, #42b5a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 0;
+    color: #E5EFDA;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4ce93', endColorstr='#42b5a0', GradientType=1); /* IE6-9 */
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    background-color: #238796;
+    color: #ffffff;
+}
+
+.nav-pills > li > a
+{
+    border-radius: 2000rem;
+    color: #36423D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+    background-color: #238796;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+{
+    border: 0;
+}
+
+.nav-tabs .dropdown.open .dropdown-toggle
+{
+    opacity: 0.5;
+}
+
+.nav-tabs .dropdown.open .dropdown-toggle:valid
+{
+    opacity: 1;
+}
+
+.nav-tabs .dropdown-toggle
+{
+    min-width: 160px;
+}
+
+.dropdown-backdrop
+{
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.dropdown-menu
+{
+    border-radius: 0.25rem;
+    margin: 0.25rem 0 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dropdown-menu > li > a
+{
+    padding: 0.5rem 1.2rem;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+{
+    background: #a4ce93; /* Old browsers */
+    background: -moz-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a4ce93 0%, #42b5a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #E5EFDA;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4ce93', endColorstr='#42b5a0', GradientType=1); /* IE6-9 */
+}
+
+.dropdown-menu .divider
+{
+    margin: 0;
+}
+
+
+/*--------------*/
+
+/*
+    Pagination
+*/
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li > a, .pagination > li > span, .pagination > li:last-child > a, .pagination > li:last-child > span
+{
+    border-radius: 2000rem;
+}
+
+.pagination > li > a
+{
+    border: 0.0625rem solid #686968;
+    color: #686968;
+    margin-right: 0.25rem;
+}
+
+/*--------------*/
+
+/*
+    Wells
+*/
+
+.well
+{
+    background: #4BB382; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4BB382 0%, #276378 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4BB382 0%, #276378 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4BB382 0%, #276378 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 0;
+    box-shadow: none;
+    /*background-color: #FCFBFB;*/
+    color: #D7EBE2;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bb8a', endColorstr='#487b8b', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+    padding: 1.25rem;
+}
+
+/*--------------*/
+
+.jumbotron
+{
+    background-color: #F6FAF3;
+}
+
+.input-group .form-control-static
+{
+    background-color: #E8F0E1;
+    color: #36423D;
+    margin-left: -2rem;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+/*
+    BUTTONS
+*/
+
+.btn
+{
+    border: 0;
+    border-radius: 2000rem;
+    box-shadow: none;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.btn-default, .btn-default.disabled
+{
+    background: rgb(217, 218, 217); /* Old browsers */
+}
+
+.btn-default:active
+{
+    background-color: #42b5a0;
+    box-shadow: none;
+}
+
+.btn-primary
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4ce93+0,42b5a0+100 */
+    background: #a4ce93; /* Old browsers */
+    background: -moz-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a4ce93 0%, #42b5a0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a4ce93 0%, #42b5a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #E5EFDA;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4ce93', endColorstr='#42b5a0', GradientType=1); /* IE6-9 */
+}
+
+.btn-primary:active
+{
+    background-color: #42b5a0;
+    box-shadow: none;
+}
+
+.btn-link
+{
+    color: #54B793;
+    display: block;
+    font-weight: 700;
+    margin: 0 auto;
+    min-width: 15rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-link:hover
+{
+    color: #36423D;
+    text-decoration: none;
+}
+
+.label
+{
+    border-radius: 1rem;
+    font-weight: 400;
+    padding: 0.25rem;
+}
+
+.btn-action
+{
+    background-color: #238796;
+    border: 0.125rem solid #9ACEB1;
+    border-radius: 2000000rem;
+    box-shadow: 0rem 0rem 0rem 0.25rem #238796;
+    color: #9ACEB1;
+    margin-right: 1rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.btn-action:hover
+{
+    border-color: #ffffff;
+    box-shadow: 0rem 0rem 0rem 0.25rem #238796;
+    color: #ffffff;
+}
+
+.btn-action:active
+{
+    background-color: #1b6a76;
+    box-shadow: 0rem 0rem 0rem 0.25rem #1b6a76;
+}
+
+.btn-action .glyphicon
+{
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1rem;
+    line-height: 1;
+    top: 0.125rem;
+}
+
+/*
+    BUTTON SIZES
+*/
+
+.btn-lg, .btn-group-lg > .btn
+{
+    font-size: 2rem;
+    padding: 2rem 4rem;
+}
+
+.btn-sm, .btn-group-sm > .btn
+{
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-xs, .btn-group-xs > .btn
+{
+    color: #FCFBFB;
+    font-size: 0.66rem;
+    letter-spacing: 0.0625rem;
+    padding: 0.125rem 0.25rem;
+}
+
+/*
+    DROPDOWN BUTTONS
+*/
+
+.btn-group .btn + .dropdown-toggle
+{
+    border-radius: 2000rem;
+    padding: 1rem 1.5rem;
+}
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle)
+{
+    margin-right: -1.5rem;
+    padding-right: 3rem;
+}
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle):hover
+{
+    z-index: 0;
+}
+
+.glyphicon:before
+{
+    line-height: 1;
+}
+
+.panel-default
+{
+    background-color: #F6FAF3;
+}
+
+.panel-heading
+{
+    padding: 1rem;
+    text-align: center;
+    border-bottom: none;
+    font-size: 2rem;
+    color: #36423D;
+    font-weight: 100;
+}
+
+.panel-default > .panel-heading
+{
+    background-color: #F6FAF3;
+}
+
+.panel-footer
+{
+    background-color: #F6FAF3;
+}
+
+/*-------------------*/
+/* Progress Bars*/
+
+.progress
+{
+    height: 1.5rem;
+    background-color: #AFDDE9;
+    box-shadow: none;
+    border-radius: 0.5rem;
+}
+
+.progress-bar
+{
+    background-color: #3FC0F0;
+    box-shadow: none;
+}
+/*-------------------*/
